@@ -1,6 +1,6 @@
 ### hackaton
 
-##The Environment Collection
+## The Environment Collection
 Descrição do Projeto
 O The Environment Collection é um projeto que visa fornecer informações sobre resíduos e locais de coleta para ajudar na preservação do meio ambiente. O projeto permite que os usuários consultem e cadastrem locais de coleta, conheçam os diferentes tipos de resíduos e obtenham orientações sobre sua separação e armazenamento adequados.
 
