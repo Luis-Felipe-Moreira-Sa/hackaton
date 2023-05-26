@@ -1,0 +1,14 @@
+{% extends 'base.html' %}
+
+{% block content %}
+  <div class="container text-center py-5">
+    <h1>Tipos de Resíduos</h1>
+    <div class="row align-items-start">
+    <ul class="list-group">
+      {% for tipo_residuo in tipos_residuos %}
+        <li  class="list-group-item">{{ tipo_residuo.nome }}</li>
+        <li class="flex-lg-wrap-reverse">{{ tipo_residuo.descricao }}</li>
+      {% endfor %}
+    </ul>
+  </div>
+{% endblock %}

@@ -1,0 +1,10 @@
+{% extends 'base.html' %}
+
+{% block content %}
+  <h1>Resultado da Busca</h1>
+  <ul>
+    {% for local_coleta in locais_coleta %}
+      <li>{{ local_coleta.nome }} - {{ local_coleta.endereco }}</li>
+    {% endfor %}
+  </ul>
+{% endblock %}

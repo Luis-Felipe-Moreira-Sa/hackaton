@@ -1,0 +1,13 @@
+{% extends 'base.html' %}
+
+{% block content %}
+  <h1>Cadastro de Local de Coleta</h1>
+  {% if success_message %}
+    <p>{{ success_message }}</p>
+  {% endif %}
+  <form method="post" action="{% url 'cadastro_local_coleta' %}">
+    {% csrf_token %}
+    <!-- Campos do formulário -->
+    <input type="submit" value="Cadastrar">
+  </form>
+{% endblock %}

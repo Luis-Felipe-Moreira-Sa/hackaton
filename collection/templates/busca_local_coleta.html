@@ -1,0 +1,9 @@
+{% extends 'base.html' %}
+{% block content %}
+  <h1>Busca de Local de Coleta</h1>
+  <form method="post" action="{% url 'busca_local_coleta' %}">
+    {% csrf_token %}
+    <!-- Campos do formulário -->
+    <input type="submit" value="Buscar">
+  </form>
+{% endblock %}
